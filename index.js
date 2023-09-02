@@ -1,5 +1,5 @@
-var dice1 = Math.floor((Math.random() * 6) + 1);
-var dice2 = Math.floor((Math.random() * 6) + 1);
+var dice1 = Math.floor((Math.random() * 6)+ 1);
+var dice2 = Math.floor((Math.random() * 6)+ 1);
 
 if(dice1>dice2){
   document.querySelector("h1").innerHTML = "⚐ Player 1 Wins!";
